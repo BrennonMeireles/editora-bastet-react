@@ -33,9 +33,9 @@ export const NavBar = styled.nav `
         display: flex;
         align-items: center;
         gap: 6px;
-        background-color: transparent;
+        background-color: #FFF;
         border-radius: 20px;
-        width: 370px;
+        width: 360px;
         
     }
 
@@ -49,5 +49,6 @@ export const NavBar = styled.nav `
     input:focus-visible {
     outline: none;
     }
+
 
 `

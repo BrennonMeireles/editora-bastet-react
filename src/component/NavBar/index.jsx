@@ -1,6 +1,7 @@
-
+import React from "react";
 import "./style";
 import {NavBar} from "./style";
+
 
 
 
