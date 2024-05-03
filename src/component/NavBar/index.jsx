@@ -1,6 +1,7 @@
-import React from "react";
+
 import "./style";
 import {NavBar} from "./style";
+
 
 
 
@@ -15,7 +16,12 @@ function NavBarComponents(){
                         <a>Livros</a>
                         <a>Contatos</a>
                         <a>Estoque</a>
-                    </div>               
+                    </div>   
+                  
+                    <div className="input-buscar">
+                       <input type="text" placeholder="Buscar" /> 
+                       
+                    </div>            
             </NavBar>
         </div>  
     );

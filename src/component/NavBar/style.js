@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
-export const NavBar = styled.nav`
+export const NavBar = styled.nav `
+
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
     
     display: flex;
     height: 100px;
@@ -9,10 +11,12 @@ export const NavBar = styled.nav`
     border-radius: 50px;
     align-items: center;
     justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
 
     a{
         color: #FFF;
-        font-family: Inter;
+        font-family: "Inter", sans-serif;
         font-size: 24px;
         font-style: normal;
         font-weight: 400;
@@ -23,4 +27,27 @@ export const NavBar = styled.nav`
         display: flex;
         gap:60px
     }
+
+    .input-buscar{
+        padding: 8px 12px;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        background-color: transparent;
+        border-radius: 20px;
+        width: 370px;
+        
+    }
+
+    input{
+        background-color: transparent;
+        border: none;
+        color: black;
+        font-size: 15px;
+    }
+
+    input:focus-visible {
+    outline: none;
+    }
+
 `
