@@ -1,5 +1,6 @@
 import Table from './component/Table'
 import NavBarComponents from './component/NavBar'
+import FooterComponent from './component/Footer'
 import './App.css'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div>
       <NavBarComponents />
       <Table />
+      <FooterComponent />
     </div>
   )
 }
