@@ -2,11 +2,11 @@ import styled from "styled-components";
 
 export const Tabela = styled.table` 
 
-    margin: 60px;
+    /* margin: 60px; */
 
     overflow: hidden;        /* para cortar o texto que ultrapassa o contêiner */
 
-    width: 95vw;
+    width: 100vw;
     height: auto;
 
     border: 1px solid black;    
