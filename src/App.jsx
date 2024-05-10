@@ -1,14 +1,10 @@
-import Table from './component/Table'
-import NavBarComponents from './component/NavBar'
-import FooterComponent from './component/Footer'
 import './App.css'
+import Rotas from "../src/routes"
 
 function App() {
   return (
     <div>
-      <NavBarComponents />
-      <Table />
-      <FooterComponent />
+      <Rotas />
     </div>
   )
 }

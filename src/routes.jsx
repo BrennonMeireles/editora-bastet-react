@@ -6,9 +6,7 @@ export default function Rotas() {
     return(
         <BrowserRouter>
             <Routes>
-                <Route path="/"            element={<Home />} />
-                <Route path="/produtos/"   element={<PageProdutos />} />
-                {/* <Route path="/add-product" element={<AddProduct />} /> */}
+                <Route path="/produtos/" element={<PageProdutos />} />
             </Routes>
         </BrowserRouter>
     )
