@@ -4,7 +4,6 @@ export const NavBar = styled.nav `
  
  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
  
- 
     display: flex;
     justify-content: center;
     align-items: center;
