@@ -6,8 +6,7 @@ export const Tabela = styled.table`
 
     width: 100%;
     height: auto;
-
-    border: 1px solid;    
+   
     border-collapse: collapse;
     border: 1px solid var(--vinho-100);
     border-radius: 10px;

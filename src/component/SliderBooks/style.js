@@ -6,7 +6,11 @@ export const SliderBook = styled.div`
   width: 100vw;
   height: auto;
   padding: 50px;
-  margin-bottom: 100px;
+
+  .ant-carousel .slick-prev,
+  .ant-carousel .slick-next{
+    color: #000;
+  }
 `
 export const Title = styled.h2`
   @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
@@ -17,7 +21,7 @@ export const Title = styled.h2`
 `
 
 export const ImageContainer = styled.div`
-  display: flex;
+  display:   flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding-top: 50px;
@@ -27,4 +31,5 @@ export const ImageContainer = styled.div`
     height: 260px;
     margin: 10px;
   }
+
 `
