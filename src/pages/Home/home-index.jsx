@@ -1,7 +1,8 @@
 import NavBarComponents    from "../../component/NavBar";
 import FooterComponent     from "../../component/Footer";
 import SliderBookComponent from "../../component/SliderBooks";
-import SliderBanner        from "../../component/Sliders";
+import SliderBanner        from "../../component/SliderBanner";
+import BannerLacamento     from "../../component/BanLancamento";
 
 import capaLivroHerman     from "../../assets/img/capa-livro-herman.svg"
 import capaLivroMorro      from "../../assets/img/capa-livro-morro.svg"
@@ -26,6 +27,7 @@ export default function Home() {
             <NavBarComponents />
             <SliderBanner />
             <SliderBookComponent title={title} images={images} />
+            <BannerLacamento />
             <FooterComponent />
         </div>
     )
