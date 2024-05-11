@@ -1,0 +1,11 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: black; */
+}
+
+.table-container {
+    padding: 60px;
+    /* background-color: aqua; */
+}
