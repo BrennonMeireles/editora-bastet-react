@@ -1,6 +1,6 @@
 import { ImageContainer, SliderBook } from "./style"
 
-import "./style.css"
+// import "./style.css"
 
 export default function SliderBookComponent() {
     // Exemplo de dados que podem mudar
