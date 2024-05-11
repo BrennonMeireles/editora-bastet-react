@@ -11,7 +11,7 @@ export default function PageProdutos() {
             <div className="table-container">
                 <Table />
             </div>
-                <FooterComponent />
+            <FooterComponent />
         </div>
     )
 }
