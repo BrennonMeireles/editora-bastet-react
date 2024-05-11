@@ -1,6 +1,6 @@
 import NavBarComponents from "../../component/NavBar";
-import Table from "../../component/Table";
-import FooterComponent from "../../component/Footer";
+import Table            from "../../component/Table";
+import FooterComponent  from "../../component/Footer";
 
 import "./produtos.css"
 

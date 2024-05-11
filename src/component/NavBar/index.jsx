@@ -1,4 +1,3 @@
-import "./style";
 import {NavBar} from "./style";
 import LogoNav from "../../assets/img/logo-nav.svg";
 import { IoIosSearch } from "react-icons/io";

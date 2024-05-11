@@ -1,4 +1,3 @@
-import "./style"
 import { Footer } from "./style"
 import LogoNav from "../../assets/img/logo-nav.svg"
 
