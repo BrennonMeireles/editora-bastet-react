@@ -20,6 +20,8 @@ export const NavBar = styled.nav `
         justify-content: space-between;
         padding-left: 25px;
         padding-right: 25px;
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.30);
+
     }
     a{
         color: #FFF;
@@ -42,8 +44,7 @@ export const NavBar = styled.nav `
         gap: 6px;
         background-color: #FFF;
         border-radius: 20px;
-        width: 360px;
-        height: 40px;
+       
        
     }
  
@@ -52,11 +53,16 @@ export const NavBar = styled.nav `
         border: none;
         color: black;
         font-size: 18px;
+        width: 338px;
+        height: 24px;
     }
  
     input:focus-visible {
     outline: none;
     }
+
+    
+    
 
 
 `

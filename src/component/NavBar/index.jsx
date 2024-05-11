@@ -1,6 +1,7 @@
 import "./style";
 import {NavBar} from "./style";
 import LogoNav from "../../assets/img/logo-nav.svg";
+import { IoIosSearch } from "react-icons/io";
  
 function NavBarComponents(){
    
@@ -17,7 +18,7 @@ function NavBarComponents(){
                  
                     <div className="input-buscar">
                        <input type="text" placeholder="Buscar" />
-                       
+                       <IoIosSearch />
                     </div>            
                 </div>  
         </NavBar>
