@@ -5,8 +5,6 @@ export const BanLancamento = styled.div`
     background-image: url(../src/assets/img/banner-morro.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    
-    margin-bottom: 100px;
     padding: 85px 40px;
     width: 100vw;
     height: auto;
