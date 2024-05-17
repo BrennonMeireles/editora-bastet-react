@@ -47,3 +47,23 @@ export const BookContainer = styled.div`
         
     }
 `
+
+export const Button = styled.button`
+
+    @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+    font-size: 26px;
+    font-family: "Libre Baskerville", serif;
+    
+    color: #fff;
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    
+    margin-top: 50px;
+    padding: 16px 85px;
+    width: 278px;
+    height: auto;
+
+    cursor: pointer;
+`
