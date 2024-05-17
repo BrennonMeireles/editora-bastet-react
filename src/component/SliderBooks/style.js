@@ -5,7 +5,7 @@ export const SliderBook = styled.div`
   flex-direction: column;
   height: auto;
   width: 100vw;
-  padding: 50px;
+  padding: 20px 50px;
 
   .ant-carousel .slick-prev,
   .ant-carousel .slick-next{
