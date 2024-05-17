@@ -6,6 +6,7 @@ export const BanLancamento = styled.div`
     background-repeat: no-repeat;
     background-size: cover;
     
+    margin-bottom: 100px;
     padding: 85px 40px;
     width: 100vw;
     height: auto;
@@ -13,7 +14,12 @@ export const BanLancamento = styled.div`
 `
 
 export const TitleBan = styled.h1`
+    @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
     font-size: 36px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+
     color: #fff;
     margin-bottom: 30px;
 `

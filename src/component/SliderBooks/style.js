@@ -3,8 +3,8 @@ import styled from "styled-components"
 export const SliderBook = styled.div`
   display: flex;
   flex-direction: column;
-  width: 100vw;
   height: auto;
+  width: 100vw;
   padding: 50px;
 
   .ant-carousel .slick-prev,
@@ -18,6 +18,9 @@ export const Title = styled.h2`
   font-family: "Inter", sans-serif;
   font-size:  36px;
   font-weight: 300;
+  color: #000;
+
+  margin-left: 60px;
 `
 
 export const ImageContainer = styled.div`
