@@ -1,18 +1,18 @@
 import styled from "styled-components";
 
-export const NavBar = styled.nav `
+export const NavBar = styled.nav`
  
  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
  
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
     
     .container-NavBar{
         display: flex;
-        height: 80px;
+        height: 100px;
         width: 95%;
         background-color: #37192C;
         border-radius: 50px;
@@ -44,8 +44,6 @@ export const NavBar = styled.nav `
         gap: 6px;
         background-color: #FFF;
         border-radius: 20px;
-       
-       
     }
  
     input{
@@ -55,14 +53,15 @@ export const NavBar = styled.nav `
         font-size: 18px;
         width: 338px;
         height: 24px;
+        padding-left: 15px;
     }
  
     input:focus-visible {
-    outline: none;
+        outline: none;
     }
 
-    
-    
-
-
+    svg {
+        width: 20px;
+        height: auto;
+    }
 `
