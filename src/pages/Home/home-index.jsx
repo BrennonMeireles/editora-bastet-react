@@ -11,6 +11,8 @@ import capaLivroVidasSecas from "../../assets/img/capa-livro-vida-secas.svg"
 import capaDomCasmurro     from "../../assets/img/capa-DomCasmurro.svg"
 import capaMorte           from "../../assets/img/capa-liev.svg"
 import capaPequenoPrincipe from "../../assets/img/capa-livro-pequeno_principe.svg"
+import { MaisVendidos } from "../../component/BannerMaisVendidos/style";
+import BMaisVendidos from "../../component/BannerMaisVendidos";
 
 const title = "Lançamentos"
 const images = [
@@ -69,6 +71,7 @@ export default function Home() {
             <SliderBanner />
             <SliderBookComponent title={title}  images={images} />
             <BannerLacamento />
+            <BMaisVendidos />
             <SliderBookComponent title={title2} images={images2} />
             <SliderBookComponent title={title3} images={images3} />
             <SliderBookComponent title={title4} images={images4} />
