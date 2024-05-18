@@ -10,12 +10,12 @@ export default function FooterComponent() {
             </div>
             <div className="list-container"> 
                 <ul>
+                    <li>Contato</li>
                     <li>Autores</li>
-                    <li>Livros</li>
                 </ul>
                 <ul>
-                    <li>Contato</li>
                     <li>Home</li>
+                    <li>Livros</li>
                 </ul>
                 <ul>
                     <li>Quem Somos</li>
