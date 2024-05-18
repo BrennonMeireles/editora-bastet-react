@@ -1,6 +1,7 @@
 import {NavBar} from "./style";
 import LogoNav from "../../assets/img/logo-nav.svg";
 import { IoIosSearch } from "react-icons/io";
+import { Link } from "react-router-dom";
  
 function NavBarComponents(){
    
@@ -9,10 +10,10 @@ function NavBarComponents(){
                 <div className="container-NavBar">
                     <img src={LogoNav} alt="logo" />
                     <div>
-                        <a>Home</a>
-                        <a>Livros</a>
-                        <a>Contatos</a>
-                        <a>Estoque</a>
+                        <Link to="/">Home</Link>
+                        <Link to="" >Livros</Link>
+                        <Link to="" >Conteudo</Link>
+                        <Link to="/produtos">Estoque</Link>
                     </div>  
                  
                     <div className="input-buscar">
