@@ -6,8 +6,8 @@ export default function Rotas() {
     return(
         <BrowserRouter>
             <Routes>
-                <Route path="/home"      element={<Home />} />
-                <Route path="/produtos"  element={<PageProdutos />} />
+                <Route exact path ="https://editora-bastet-react.vercel.app/"    element={<Home />} />
+                <Route path ="https://editora-bastet-react.vercel.app/produtos"  element={<PageProdutos />} />
             </Routes>
         </BrowserRouter>
     )
