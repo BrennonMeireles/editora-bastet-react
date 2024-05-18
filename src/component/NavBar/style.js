@@ -29,6 +29,7 @@ export const NavBar = styled.nav`
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    text-decoration: none;
 
     cursor: pointer;
   }
