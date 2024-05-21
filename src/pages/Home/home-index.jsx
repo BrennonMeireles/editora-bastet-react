@@ -13,6 +13,8 @@ import capaMorte           from "../../assets/img/capa-liev.svg"
 import capaPequenoPrincipe from "../../assets/img/capa-livro-pequeno_principe.svg"
 import { MaisVendidos } from "../../component/BannerMaisVendidos/style";
 import BMaisVendidos from "../../component/BannerMaisVendidos";
+import getLivros from "../../service/api";
+
 
 const title = "Lançamentos"
 const images = [
@@ -64,7 +66,13 @@ const images5 = [
     capaPequenoPrincipe
 ]
 
+
+
+
 export default function Home() {
+
+    getLivros();
+
     return (
         <div>
             <NavBarComponents />
