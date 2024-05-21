@@ -102,7 +102,7 @@ Crie um arquivo .env na raiz do diretório backend com as seguintes informaçõe
 
     ```bash
    cd ../frontend
-   npm start
+   npm run dev
     
 7. **Acesse a aplicação no seu navegador:**
 Abra o navegador e acesse http://localhost:3000.
