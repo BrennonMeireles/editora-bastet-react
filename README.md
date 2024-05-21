@@ -105,7 +105,10 @@ Crie um arquivo .env na raiz do diretório backend com as seguintes informaçõe
    npm run dev
     
 7. **Acesse a aplicação no seu navegador:**
+
 Clique no link gerado pelo vite ele abrira o site no seu navegador padrão (exemplo http://localhost:3000.)
+
+<br>
 
 **Contribuição**
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests. Para grandes mudanças, por favor, abra uma issue primeiro para discutir o que você gostaria de mudar.
