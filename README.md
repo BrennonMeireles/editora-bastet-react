@@ -1,4 +1,4 @@
-# Projeto Editora Bastet              <img style=" width: 50px;  height:auto; margin-left: 20px;" src="https://s3-alpha-sig.figma.com/img/a87e/41f8/256846d6a9fd32e34b9eca4830f6d786?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kzehCGAYflPX6uuFlM2Y3-BeeBgNMuSba45J7xkQkg9PefVuOpdYaj5Jup2p8Z3sFOR9W~1oIwnF7XTQ32wP4-52hI1cTWSrap6s9JY0rXuWUQ959KCZLH4yz81PedP6EC36fE6wT1dZQtzNsIYECNSNtFWkeCAlyNF1H9DnkjwE1epnyF04feKvgMWHeMVYnH1tw-yaIBLQgcGD4SDQsemVUFx9H9Z6a1p~dx56ERyvlObJx0x-fvdJH-UPB7W4210tYoiR~eB-7OBLGUzHQOuIOcVf0D7z-fu~gSMHN0d2W7IXfgLfpwqevSWvkwkTKRAsjhbNLlQ1hKmxHxQWYA__" alt="Logo da Editora">
+# Projeto Editora Bastet   <img style=" width: 50px;  height:auto; margin-left: 20px;" src="https://s3-alpha-sig.figma.com/img/a87e/41f8/256846d6a9fd32e34b9eca4830f6d786?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kzehCGAYflPX6uuFlM2Y3-BeeBgNMuSba45J7xkQkg9PefVuOpdYaj5Jup2p8Z3sFOR9W~1oIwnF7XTQ32wP4-52hI1cTWSrap6s9JY0rXuWUQ959KCZLH4yz81PedP6EC36fE6wT1dZQtzNsIYECNSNtFWkeCAlyNF1H9DnkjwE1epnyF04feKvgMWHeMVYnH1tw-yaIBLQgcGD4SDQsemVUFx9H9Z6a1p~dx56ERyvlObJx0x-fvdJH-UPB7W4210tYoiR~eB-7OBLGUzHQOuIOcVf0D7z-fu~gSMHN0d2W7IXfgLfpwqevSWvkwkTKRAsjhbNLlQ1hKmxHxQWYA__" alt="Logo da Editora">
 
 Bem-vindo ao repositório do projeto **Editora Bastet**! Este projeto foi desenvolvido por uma equipe dedicada de nove programadores, e nosso objetivo é criar uma plataforma robusta e intuitiva para a administração e visualização de livros de diversos gêneros, incluindo romance, clássicos, fantasia, mistério, suspense e muito mais.
 
@@ -28,7 +28,6 @@ O projeto foi desenvolvido utilizando um conjunto de tecnologias modernas e efic
 - **Vite**
 - **Figma**
 - **LibraryANT**
-  
 
 ### Backend
 - **Express.js**
@@ -41,8 +40,6 @@ O projeto foi desenvolvido utilizando um conjunto de tecnologias modernas e efic
 - **Node.js**
 - **JWT (JSON Web Tokens)**
 - **axios**
-  
-  
 
 ### Banco de Dados
 - **MongoDB**
@@ -94,8 +91,6 @@ Crie um arquivo .env na raiz do diretório backend com as seguintes informaçõe
    DB_USER=login
    DB_PASS=8ToI3JVCCxxyIrHN
    SECRET=iqwdg873t19dqhq9uh752615@$$%AAAFGY%$YIHUFYTD
-
-
    
 5. **Inicie o servidor backend:**
 
@@ -103,14 +98,12 @@ Crie um arquivo .env na raiz do diretório backend com as seguintes informaçõe
     cd ../backend
     npm start
 
-    
 6. **Inicie o servidor frontend:**
 
     ```bash
    cd ../frontend
    npm start
-
-
+    
 7. **Acesse a aplicação no seu navegador:**
 Abra o navegador e acesse http://localhost:3000.
 
