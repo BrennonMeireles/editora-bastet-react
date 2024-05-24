@@ -1,21 +1,23 @@
-import React from 'react';
 import { Carousel } from 'antd';
-import { SliderBook, Title } from './style'; // Certifique-se de importar o componente de estilo e o título, se aplicável
+import { SliderBook, Title } from './style'; 
 
-const SliderBookComponent = (props) => (
-    
-    <div>
-        <Title>{props.title}</Title> {/* Renderiza o título */}
-        <SliderBook>
-            <Carousel arrows infinite={true} vertical={false} slidesToShow={props.images.length} >
-                {props.images.map((image, index) => (
-                    <div key={index}>
-                        <img src={image.capa} alt={`Image ${index}`} style={{ width: "176px", height: "260px", margin: "10px" }} />
-                    </div>
-                ))}
-            </Carousel>
-        </SliderBook>
-    </div>
-);
+const SliderBookComponent = (props) => {
+    const displayedImages = props.images.slice(0, 7); // Limita as imagens aos primeiros 6 livros
+
+    return (
+        <div>
+            <Title>{props.title}</Title> 
+            <SliderBook>
+                <Carousel arrows infinite={true} vertical={false} slidesToShow={displayedImages.length} >
+                    {displayedImages.map((image, index) => (
+                        <div key={index}>
+                            <img src={image.capa} alt={`Image ${index}`} style={{ width: "176px", height: "auto", margin: "0px" }} />
+                        </div>
+                    ))}
+                </Carousel>
+            </SliderBook>
+        </div>
+    );
+};
 
 export default SliderBookComponent;
