@@ -21,7 +21,6 @@ export default function Table() {
             <Tabela>
                 <thead>
                     <tr>
-                        <th>ID</th>
                         <th>ISBN</th>
                         <th>Autor</th>
                         <th>Capa</th>
@@ -32,7 +31,6 @@ export default function Table() {
                 <tbody>
                     {livros?.map((livro) => (
                         <tr key={livro.id}>
-                            <td>{livro._id}</td>
                             <td>{livro.ISBN}</td>
                             <td>{livro.autor}</td>
                             <td><img src={livro.capa} alt="Capa do Livro" /></td>

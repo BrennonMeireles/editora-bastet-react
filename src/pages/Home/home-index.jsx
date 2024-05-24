@@ -1,15 +1,15 @@
-import NavBarComponents    from "../../component/NavBar";
-import FooterComponent     from "../../component/Footer";
+import NavBarComponents from "../../component/NavBar";
+import FooterComponent from "../../component/Footer";
 import SliderBookComponent from "../../component/SliderBooks";
-import SliderBanner        from "../../component/SliderBanner";
-import BannerLacamento     from "../../component/BanLancamento";
+import SliderBanner from "../../component/SliderBanner";
+import BannerLacamento from "../../component/BanLancamento";
 
 // imagens dos sliderbook 1 - Lançamentos
-import capaLivroHerman     from "../../assets/img/capa-livro-herman.svg"
-import capaLivroMorro      from "../../assets/img/capa-livro-morro.svg"
+import capaLivroHerman from "../../assets/img/capa-livro-herman.svg"
+import capaLivroMorro from "../../assets/img/capa-livro-morro.svg"
 import capaLivroVidasSecas from "../../assets/img/capa-livro-vida-secas.svg"
-import capaDomCasmurro     from "../../assets/img/capa-DomCasmurro.svg"
-import capaMorte           from "../../assets/img/capa-liev.svg"
+import capaDomCasmurro from "../../assets/img/capa-DomCasmurro.svg"
+import capaMorte from "../../assets/img/capa-liev.svg"
 import capaPequenoPrincipe from "../../assets/img/capa-livro-pequeno_principe.svg"
 import BMaisVendidos from "../../component/BannerMaisVendidos";
 import axios from "axios";
@@ -38,10 +38,10 @@ export default function Home() {
         }).catch((error) => {
             console.log(error)
         })
-    },[]);
+    }, []);
 
     const livrosRomance = dados.filter(dado => dado.genero == "Romance");
-    
+
     const livrosClassicos = dados.filter(dado => dado.genero == "Clássico");
 
     const livrosSuspense = dados.filter(dado => dado.genero == "Suspense/Mistério");
@@ -52,7 +52,7 @@ export default function Home() {
         <div>
             <NavBarComponents />
             <SliderBanner />
-            <SliderBookComponent title={title}  images={dados} />
+            <SliderBookComponent title={title} images={dados} />
             <BannerLacamento />
             <BMaisVendidos />
             <SliderBookComponent title={title2} images={livrosRomance} />
