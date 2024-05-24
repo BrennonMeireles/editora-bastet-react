@@ -7,7 +7,7 @@ import "./produtos.css"
 export default function PageProdutos() {
     return(
         <div>
-            <NavBarComponents />
+            {/* <NavBarComponents /> */}
             <div className="table-container">
                 <Table />
             </div>

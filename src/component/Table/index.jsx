@@ -24,7 +24,7 @@ export default function Table() {
                         <th>ISBN</th>
                         <th>Autor</th>
                         <th>Capa</th>
-                        <th>Titulo</th>
+                        <th id="mobile">Titulo</th>
                         <th><button>Adicionar</button></th>
                     </tr>
                 </thead>
@@ -34,7 +34,7 @@ export default function Table() {
                             <td>{livro.ISBN}</td>
                             <td>{livro.autor}</td>
                             <td><img src={livro.capa} alt="Capa do Livro" /></td>
-                            <td>{livro.titulo}</td>
+                            <td id="mobile">{livro.titulo}</td>
                             <td><a href="#">excluir</a></td>
                         </tr>
                     ))}
