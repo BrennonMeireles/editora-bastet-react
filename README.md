@@ -14,7 +14,17 @@ A equipe é composta pelos seguintes Desenvolvedores:
 * **LUCAS MACIEL VALADÃO** - *Front-end* - [GitHub](https://github.com/lucasmvaladao)
 * **NICOLAS GABRIEL BUSTAMANTE LOPES** - *Back-end* - [GitHub](https://github.com/NicolasLopes29)
 * **PEDRO VINÍCIUS DOS SANTOS** - *Banco de dados* - [GitHub](https://github.com/Pedro-V7)
-* **VINICIUS GOMES LINS** - *Banco de dados* - [GitHub](https://github.com/VGLink)
+* **VINICIUS GOMES LINS** - *Banco de dados* - [GitHub](https://github.com/VGLink) <br><br>
+
+## ⚙️ Funcionalidades do Projeto
+
+Nossa plataforma possui as seguintes funcionalidades principais:
+
+*  **Catálogo de Livros:** Visualização de uma lista de livros disponíveis, categorizados por gênero.
+*  **Detalhes do Livro:** Visualização de informações detalhadas sobre cada livro.
+*  **Gerenciamento de Livros:** Ferramentas para adicionar, editar e remover livros do catálogo (disponível para administradores).
+*  **Autenticação e Autorização:** Implementação de sistema de login e controle de acesso utilizando JWT.
+*  **Pesquisa:** Função de pesquisa para encontrar livros específicos ou por categoria.<br><br>
 
 ## 🛠️ Construído com
 
@@ -47,17 +57,9 @@ Aqui estão as ferramentas que utilizei para criar este projeto:
 
 **Controle de Versão**
 * [Git](https://git-scm.com/) - Sistema de controle de versão distribuído.
-* [GitHub](https://github.com/) - Plataforma de hospedagem de código-fonte e colaboração.
+* [GitHub](https://github.com/) - Plataforma de hospedagem de código-fonte e colaboração. <br><br>
 
-## ⚙️ Funcionalidades do Projeto
 
-Nossa plataforma possui as seguintes funcionalidades principais:
-
-*  **Catálogo de Livros:** Visualização de uma lista de livros disponíveis, categorizados por gênero.
-*  **Detalhes do Livro:** Visualização de informações detalhadas sobre cada livro.
-*  **Gerenciamento de Livros:** Ferramentas para adicionar, editar e remover livros do catálogo (disponível para administradores).
-*  **Autenticação e Autorização:** Implementação de sistema de login e controle de acesso utilizando JWT.
-*  **Pesquisa:** Função de pesquisa para encontrar livros específicos ou por categoria.
  
 ## 🔧 Como Executar o Projeto
 
@@ -85,12 +87,4 @@ Inicialize o servidor de desenvolvimento fornecido pelo Vite
 
    Clique no link gerado pelo vite ele abrira o site no seu navegador padrão (exemplo http://localhost:3000.)
 
-<br>
-
-**Contribuição**
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests. Para grandes mudanças, por favor, abra uma issue primeiro para discutir o que você gostaria de mudar.
-
-**Licença**
-Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
-
-Agradecemos por conferir nosso projeto! Esperamos que nossa plataforma de Editora de Livros seja útil e agradável de usar. Se tiver qualquer dúvida ou sugestão, não hesite em nos contatar.
+<br><br>
