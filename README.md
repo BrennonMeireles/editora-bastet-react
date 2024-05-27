@@ -54,10 +54,10 @@ Aqui estão as ferramentas que utilizei para criar este projeto:
 Nossa plataforma possui as seguintes funcionalidades principais:
 
 *  **Catálogo de Livros:** Visualização de uma lista de livros disponíveis, categorizados por gênero.
-* . **Detalhes do Livro:** Visualização de informações detalhadas sobre cada livro.
-* . **Gerenciamento de Livros:** Ferramentas para adicionar, editar e remover livros do catálogo (disponível para administradores).
-* . **Autenticação e Autorização:** Implementação de sistema de login e controle de acesso utilizando JWT.
-* . **Pesquisa:** Função de pesquisa para encontrar livros específicos ou por categoria.
+*  **Detalhes do Livro:** Visualização de informações detalhadas sobre cada livro.
+*  **Gerenciamento de Livros:** Ferramentas para adicionar, editar e remover livros do catálogo (disponível para administradores).
+*  **Autenticação e Autorização:** Implementação de sistema de login e controle de acesso utilizando JWT.
+*  **Pesquisa:** Função de pesquisa para encontrar livros específicos ou por categoria.
 
 ## Estrutura do Projeto
 
