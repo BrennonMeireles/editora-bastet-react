@@ -11,7 +11,7 @@ function NavBarComponents(){
                     <img src={LogoNav} alt="logo" />
                     <div>
                         <Link to="/">Home</Link>
-                        <Link to="" >Livros</Link>
+                        <Link to="/ver-livro" >Livros</Link>
                         <Link to="" >Conteudo</Link>
                         <Link to="/produtos">Estoque</Link>
                     </div>  
