@@ -65,7 +65,7 @@ A estrutura do projeto é organizada da seguinte forma:
 
 eu preciso de uma imagem da estrutura do projeto 
  
-## Como Executar o Projeto
+## 🔧 Como Executar o Projeto
 
 Para executar o projeto localmente, siga os passos abaixo:
 
