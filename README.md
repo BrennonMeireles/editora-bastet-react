@@ -57,7 +57,7 @@ Aqui estão as ferramentas que utilizei para criar este projeto:
 
 **Controle de Versão**
 * [Git](https://git-scm.com/) - Sistema de controle de versão distribuído.
-* [GitHub](https://github.com/) - Plataforma de hospedagem de código-fonte e colaboração. <br><br>
+* [GitHub](https://github.com/) - Plataforma de hospedagem de código-fonte e colaboração. <br> <br>
 
 
  
@@ -85,6 +85,14 @@ Inicialize o servidor de desenvolvimento fornecido pelo Vite
  
 5. **Acesse a aplicação no seu navegador:**
 
-   Clique no link gerado pelo vite ele abrira o site no seu navegador padrão (exemplo http://localhost:3000.)
+   Clique no link gerado pelo vite ele abrira o site no seu navegador padrão (exemplo http://localhost:3000.) <br><br>
 
-<br><br>
+
+## 🎁 Agradecimentos
+Gostaríamos de expressar nossa sincera gratidão aos professores Atilas e Fiama por disponibilizarem suas aulas e fornecerem valiosos feedbacks ao longo do desenvolvimento deste projeto. Suas orientações e conhecimentos compartilhados foram fundamentais para o sucesso e crescimento da nossa equipe.
+
+Agradecemos também a todos os nossos colegas de classe e demais professores por seu apoio e colaboração durante este processo de aprendizado e desenvolvimento. <br> <br>
+
+
+<img src="https://raw.githubusercontent.com/matheuscostadesign/projetos-senai/main/.github/logo-senai.svg" width="100"> <br>
+Este projeto foi desenvolvido como parte do segundo semestre do curso de Desenvolvimento de Sistemas no SENAI Suíço-Brasileira em 2024.
