@@ -85,7 +85,7 @@ Inicialize o servidor de desenvolvimento fornecido pelo Vite
  
 5. **Acesse a aplicação no seu navegador:**
 
-   Clique no link gerado pelo vite ele abrira o site no seu navegador padrão (exemplo http://localhost:3000.) <br><br>
+   Clique no link gerado pelo Vite. Ele abrirá o site no seu navegador padrão (exemplo http://localhost:3000.) <br><br>
 
 
 ## 🎁 Agradecimentos
