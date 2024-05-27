@@ -89,9 +89,9 @@ Inicialize o servidor de desenvolvimento fornecido pelo Vite
 
 
 ## 🎁 Agradecimentos
-Gostaríamos de expressar nossa sincera gratidão aos professores Atilas e Fiama por disponibilizarem suas aulas e fornecerem valiosos feedbacks ao longo do desenvolvimento deste projeto. Suas orientações e conhecimentos compartilhados foram fundamentais para o sucesso e crescimento da nossa equipe.
+Gostaríamos de expressar nossa sincera gratidão aos professores Átila e Fiama por disponibilizarem suas aulas e fornecerem valiosos feedbacks ao longo do desenvolvimento deste projeto. Suas orientações e conhecimentos compartilhados foram fundamentais para o sucesso e crescimento da nossa equipe.
 
-Agradecemos também a todos os nossos colegas de classe e demais professores por seu apoio e colaboração durante este processo de aprendizado e desenvolvimento. <br> <br>
+Agradecemos também a todos os nossos colegas de classe e demais professores pelo apoio e colaboração durante este processo de aprendizado e desenvolvimento. <br> <br>
 
 
 <img src="https://raw.githubusercontent.com/matheuscostadesign/projetos-senai/main/.github/logo-senai.svg" width="100"> <br>
