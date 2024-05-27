@@ -49,15 +49,15 @@ Aqui estão as ferramentas que utilizei para criar este projeto:
 * [Git](https://git-scm.com/) - Sistema de controle de versão distribuído.
 * [GitHub](https://github.com/) - Plataforma de hospedagem de código-fonte e colaboração.
 
-## Funcionalidades do Projeto
+## ⚙️ Funcionalidades do Projeto
 
 Nossa plataforma possui as seguintes funcionalidades principais:
 
-1. **Catálogo de Livros:** Visualização de uma lista de livros disponíveis, categorizados por gênero.
-2. **Detalhes do Livro:** Visualização de informações detalhadas sobre cada livro.
-3. **Gerenciamento de Livros:** Ferramentas para adicionar, editar e remover livros do catálogo (disponível para administradores).
-4. **Autenticação e Autorização:** Implementação de sistema de login e controle de acesso utilizando JWT.
-5. **Pesquisa:** Função de pesquisa para encontrar livros específicos ou por categoria.
+*  **Catálogo de Livros:** Visualização de uma lista de livros disponíveis, categorizados por gênero.
+* . **Detalhes do Livro:** Visualização de informações detalhadas sobre cada livro.
+* . **Gerenciamento de Livros:** Ferramentas para adicionar, editar e remover livros do catálogo (disponível para administradores).
+* . **Autenticação e Autorização:** Implementação de sistema de login e controle de acesso utilizando JWT.
+* . **Pesquisa:** Função de pesquisa para encontrar livros específicos ou por categoria.
 
 ## Estrutura do Projeto
 
