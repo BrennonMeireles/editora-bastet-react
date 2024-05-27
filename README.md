@@ -58,12 +58,6 @@ Nossa plataforma possui as seguintes funcionalidades principais:
 *  **Gerenciamento de Livros:** Ferramentas para adicionar, editar e remover livros do catálogo (disponível para administradores).
 *  **Autenticação e Autorização:** Implementação de sistema de login e controle de acesso utilizando JWT.
 *  **Pesquisa:** Função de pesquisa para encontrar livros específicos ou por categoria.
-
-## Estrutura do Projeto
-
-A estrutura do projeto é organizada da seguinte forma:
-
-eu preciso de uma imagem da estrutura do projeto 
  
 ## 🔧 Como Executar o Projeto
 
@@ -72,42 +66,24 @@ Para executar o projeto localmente, siga os passos abaixo:
 1. **Clone o repositório:**
 
    ```bash
-   git clone https://github.com/seu-usuario/editora-de-livros.git
-2. **Instale as dependências do backend:**
+   git clone https://github.com/BrennonMeireles/editora-bastet-react.git
+   
+2. **Entre na pasta**
    ```bash
-   cd editora-de-livros/backend
-   npm install
+   cd editora-bastet-react
 
-
-3. **Instale as dependências do frontend:**
+3. **Instale a node modules**
    ```bash
-    cd ../frontend
     npm install
 
-
 4. **Configure as variáveis de ambiente:**
-Crie um arquivo .env na raiz do diretório backend com as seguintes informações:
-
+Inicialize o servidor de desenvolvimento fornecido pelo Vite
    ```bash
-   DB_USER=login
-   DB_PASS=8ToI3JVCCxxyIrHN
-   SECRET=iqwdg873t19dqhq9uh752615@$$%AAAFGY%$YIHUFYTD
-   
-5. **Inicie o servidor backend:**
-
-    ```bash
-    cd ../backend
-    npm start
-
-6. **Inicie o servidor frontend:**
-
-    ```bash
-   cd ../frontend
    npm run dev
-    
-7. **Acesse a aplicação no seu navegador:**
+ 
+5. **Acesse a aplicação no seu navegador:**
 
-Clique no link gerado pelo vite ele abrira o site no seu navegador padrão (exemplo http://localhost:3000.)
+   Clique no link gerado pelo vite ele abrira o site no seu navegador padrão (exemplo http://localhost:3000.)
 
 <br>
 
