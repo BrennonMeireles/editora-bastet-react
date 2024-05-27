@@ -16,37 +16,38 @@ A equipe é composta pelos seguintes Desenvolvedores:
 * **PEDRO VINÍCIUS DOS SANTOS** - *Banco de dados* - [GitHub](https://github.com/Pedro-V7)
 * **VINICIUS GOMES LINS** - *Banco de dados* - [GitHub](https://github.com/VGLink)
 
-## Tecnologias Utilizadas
+## 🛠️ Construído com
 
-O projeto foi desenvolvido utilizando um conjunto de tecnologias modernas e eficientes:
+Aqui estão as ferramentas que utilizei para criar este projeto:
 
-### Frontend
-- **HTML**
-- **CSS**
-- **JavaScript**
-- **ReactJs**
-- **Vite**
-- **Figma**
-- **LibraryANT**
+**Frontend**
+* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - Linguagem de marcação para estruturação de páginas web.
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - Linguagem de estilo para estilizar elementos HTML.
+* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - Linguagem de programação para interatividade e dinamismo.
+* [ReactJs](https://reactjs.org/) - Biblioteca JavaScript para construção de interfaces de usuário.
+* [Vite](https://vitejs.dev/) - Build tool para aplicações web modernas.
+* [Figma](https://www.figma.com/) - Ferramenta de design colaborativo para criar interfaces de usuário.
 
-### Backend
-- **Express.js**
-- **cors**
-- **bcrypt**
-- **dotenv**
-- **email-validator**
-- **jsonwebtoken**
-- **moongose**
-- **Node.js**
-- **JWT (JSON Web Tokens)**
-- **axios**
+**Library**
+* [ANT Design](https://ant.design/) - Uma biblioteca de UI para React.
 
-### Banco de Dados
-- **MongoDB**
+**Backend**
+* [Express.js](https://expressjs.com/) - Framework web para Node.js.
+* [cors](https://www.npmjs.com/package/cors) - Middleware para habilitar o controle de acesso a recursos de um servidor.
+* [bcrypt](https://www.npmjs.com/package/bcrypt) - Biblioteca para hashing de senhas.
+* [dotenv](https://www.npmjs.com/package/dotenv) - Carregar variáveis de ambiente de um arquivo `.env`.
+* [email-validator](https://www.npmjs.com/package/email-validator) - Validação de endereços de e-mail.
+* [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken) - Implementação de JSON Web Tokens (JWT).
+* [mongoose](https://mongoosejs.com/) - ODM (Object-Document Mapping) para MongoDB.
+* [Node.js](https://nodejs.org/) - Ambiente de execução JavaScript server-side.
+* [axios](https://axios-http.com/) - Cliente HTTP baseado em promessas para o navegador e Node.js.
 
-### Controle de Versão
-- **Git**
-- **GitHub**
+**Banco de Dados**
+* [MongoDB](https://www.mongodb.com/) - Banco de dados NoSQL orientado a documentos.
+
+**Controle de Versão**
+* [Git](https://git-scm.com/) - Sistema de controle de versão distribuído.
+* [GitHub](https://github.com/) - Plataforma de hospedagem de código-fonte e colaboração.
 
 ## Funcionalidades do Projeto
 
