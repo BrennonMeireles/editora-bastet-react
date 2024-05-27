@@ -2,19 +2,19 @@
 
 Bem-vindo ao repositório do projeto **Editora Bastet**! Este projeto foi desenvolvido por uma equipe dedicada de nove programadores, e nosso objetivo é criar uma plataforma robusta e intuitiva para a administração e visualização de livros de diversos gêneros, incluindo romance, clássicos, fantasia, mistério, suspense e muito mais.
 
-## Equipe de Desenvolvimento
+## 💻 Desenvolvedores
 
 A equipe é composta pelos seguintes Desenvolvedores:
 
-1. **ALEXSANDRA MARIA DE CAMPOS**
-2. **BRENNON MEIRELES DE SOUZA**
-3. **EMERSON VIEIRA DE OLIVEIRA**
-4. **JHAMIM MENDES DA SILVA**
-5. **KAMILA CAVALCANTE MARINHO**
-6. **LUCAS MACIEL VALADÃO**
-7. **NICOLAS GABRIEL BUSTAMANTE LOPES**
-8. **PEDRO VINÍCIUS DOS SANTOS**
-9. **VINICIUS GOMES LINS**
+* **ALEXSANDRA MARIA DE CAMPOS** - *Banco de dados* - [GitHub](https://github.com/AlexsandraMCampos)
+* **BRENNON MEIRELES DE SOUZA**  - *Front-end* - [GitHub](https://github.com/BrennonMeireles)
+* **EMERSON VIEIRA DE OLIVEIRA**  - *Back-end* - [GitHub](https://github.com/Emerson757)
+* **JHAMIM MENDES DA SILVA**  - *Back-end* - [GitHub](https://github.com/Jhamim-py)
+* **KAMILA CAVALCANTE MARINHO** - *Front-end* - [GitHub](https://github.com/kamimarinn)
+* **LUCAS MACIEL VALADÃO** - *Front-end* - [GitHub](https://github.com/lucasmvaladao)
+* **NICOLAS GABRIEL BUSTAMANTE LOPES** - *Back-end* - [GitHub](https://github.com/NicolasLopes29)
+* **PEDRO VINÍCIUS DOS SANTOS** - *Banco de dados* - [GitHub](https://github.com/Pedro-V7)
+* **VINICIUS GOMES LINS** - *Banco de dados* - [GitHub](https://github.com/VGLink)
 
 ## Tecnologias Utilizadas
 
