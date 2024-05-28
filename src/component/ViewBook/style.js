@@ -38,6 +38,10 @@ export const Description = styled.div`
         font-size: 24px;
     }
 
+    textarea::placeholder, input::placeholder{
+        font-size: 18px;
+    }
+
     ul > li > input {
         width: 500px;
         border-left:  none;
@@ -83,6 +87,12 @@ export const Book = styled.div`
     article > img{
         width: 330px;
         height: auto                ;
+    }
+
+    article > svg {
+        width: 100px;
+        height: auto;
+        margin: 150px 100px;
     }
 
     div{
