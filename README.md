@@ -94,5 +94,5 @@ Gostaríamos de expressar nossa sincera gratidão aos professores [Átila](https
 Agradecemos também a todos os nossos colegas de classe e demais professores pelo apoio e colaboração durante este processo de aprendizado e desenvolvimento. <br> <br>
 
 
-<img src="https://raw.githubusercontent.com/matheuscostadesign/projetos-senai/main/.github/logo-senai.svg" width="100"> <br>
+<img src="https://raw.githubusercontent.com/matheuscostadesign/projetos-senai/main/.github/logo-senai.svg" width="100"> <br><br>
 Este projeto foi desenvolvido como parte do segundo semestre do curso técnico de Desenvolvimento de Sistemas no [SENAI Suíço-Brasileira](https://sp.senai.br/unidade/suicobrasileira/) em 2024.
