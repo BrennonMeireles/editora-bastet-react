@@ -6,14 +6,15 @@ Bem-vindo ao repositório do projeto **Editora Bastet**! Este projeto foi desenv
 
 A equipe é composta pelos seguintes Desenvolvedores:
 
-* **ALEXSANDRA MARIA DE CAMPOS** - *Banco de dados* - [GitHub](https://github.com/AlexsandraMCampos)
-* **BRENNON MEIRELES DE SOUZA**  - *Front-end* - [GitHub](https://github.com/BrennonMeireles)
-* **EMERSON VIEIRA DE OLIVEIRA**  - *Back-end* - [GitHub](https://github.com/Emerson757)
-* **JHAMIM MENDES DA SILVA**  - *Back-end* - [GitHub](https://github.com/Jhamim-py)
+* **BRENNON MEIRELES DE SOUZA**  - *Front-end & Design*  - [GitHub](https://github.com/BrennonMeireles)
 * **KAMILA CAVALCANTE MARINHO** - *Front-end* - [GitHub](https://github.com/kamimarinn)
 * **LUCAS MACIEL VALADÃO** - *Front-end* - [GitHub](https://github.com/lucasmvaladao)
+* **EMERSON VIEIRA DE OLIVEIRA**  - *Back-end* - [GitHub](https://github.com/Emerson757)
+* **JHAMIM MENDES DA SILVA**  - *Back-end* - [GitHub](https://github.com/Jhamim-py)
 * **NICOLAS GABRIEL BUSTAMANTE LOPES** - *Back-end* - [GitHub](https://github.com/NicolasLopes29)
 * **PEDRO VINÍCIUS DOS SANTOS** - *Banco de dados* - [GitHub](https://github.com/Pedro-V7)
+* **ALEXSANDRA MARIA DE CAMPOS** - *Banco de dados* - [GitHub](https://github.com/AlexsandraMCampos)
+* 
 * **VINICIUS GOMES LINS** - *Banco de dados* - [GitHub](https://github.com/VGLink) <br><br>
 
 ## ⚙️ Funcionalidades do Projeto
