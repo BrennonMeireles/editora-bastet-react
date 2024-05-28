@@ -26,7 +26,7 @@ Nossa plataforma possui as seguintes funcionalidades principais:
 *  **Autenticação e Autorização:** Implementação de sistema de login e controle de acesso utilizando JWT.
 *  **Pesquisa:** Função de pesquisa para encontrar livros específicos ou por categoria.<br><br>
 
-## 🛠️ Construído com
+## 🛠️ Tecnologias Utilizadas
 
 Aqui estão as ferramentas que utilizei para criar este projeto:
 
