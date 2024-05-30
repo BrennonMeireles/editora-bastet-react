@@ -65,4 +65,61 @@ export const Footer = styled.footer`
     width: 100%;
     transition: 0.4s ease;
   }
-`
+
+  /*responsividade*/
+
+  @media screen and (max-width: 600px) {
+
+    margin-top: auto;
+    width:100%
+
+    padding: 1.25rem;
+
+    .title-container {
+      align-items: center;
+      text-align: center;
+      gap:1rem;
+    }
+
+    div > img {
+      width: 3.125rem; /* Ajustar o tamanho da imagem */
+    }
+
+    .list-container {
+      flex-direction: column;      
+      gap: 1.25rem; /* Reduzir o espaço entre as listas */
+    }
+
+    li::before {
+      content: "";
+      position: absolute;
+      bottom: -3px;
+      left: 0;
+  
+      background-color: var(--branco-1000);
+      border-radius: 0.3125rem;
+  
+      height: 0.0625rem;
+      width: 0%;
+    }
+  
+    li:hover::before {
+      width: 100%;
+      transition: 0.4s ease;
+    }
+
+
+    ul {
+      display:flex;
+      flex-direction: row;
+      gap: 1.25rem; /* Reduzir o espaço entre os itens da lista */
+      font-size: 1.5rem; /* Ajustar o tamanho da fonte */
+    }
+
+    h4 {
+      font-size: 1.5rem; /* Ajustar o tamanho da fonte */
+    }
+  }
+ 
+  }
+`;
