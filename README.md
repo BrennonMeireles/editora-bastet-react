@@ -6,15 +6,15 @@ Bem-vindo ao repositório do projeto **Editora Bastet**! Este projeto foi desenv
 
 A equipe é composta pelos seguintes Desenvolvedores:
 
-* **ALEXSANDRA MARIA DE CAMPOS** - *Banco de dados* - [GitHub](https://github.com/AlexsandraMCampos)
-* **BRENNON MEIRELES DE SOUZA**  - *Front-end* - [GitHub](https://github.com/BrennonMeireles)
-* **EMERSON VIEIRA DE OLIVEIRA**  - *Back-end* - [GitHub](https://github.com/Emerson757)
+* **BRENNON MEIRELES DE SOUZA**  - *Front-end & Design*  - [GitHub](https://github.com/BrennonMeireles)
+* **KAMILA CAVALCANTE MARINHO**  - *Front-end* - [GitHub](https://github.com/kamimarinn)
+* **LUCAS MACIEL VALADÃO**       - *Front-end* - [GitHub](https://github.com/lucasmvaladao)
+* **EMERSON VIEIRA DE OLIVEIRA** - *Back-end* - [GitHub](https://github.com/Emerson757)
 * **JHAMIM MENDES DA SILVA**  - *Back-end* - [GitHub](https://github.com/Jhamim-py)
-* **KAMILA CAVALCANTE MARINHO** - *Front-end* - [GitHub](https://github.com/kamimarinn)
-* **LUCAS MACIEL VALADÃO** - *Front-end* - [GitHub](https://github.com/lucasmvaladao)
 * **NICOLAS GABRIEL BUSTAMANTE LOPES** - *Back-end* - [GitHub](https://github.com/NicolasLopes29)
-* **PEDRO VINÍCIUS DOS SANTOS** - *Banco de dados* - [GitHub](https://github.com/Pedro-V7)
-* **VINICIUS GOMES LINS** - *Banco de dados* - [GitHub](https://github.com/VGLink) <br><br>
+* **PEDRO VINÍCIUS DOS SANTOS**  - *Banco de dados* - [GitHub](https://github.com/Pedro-V7)
+* **ALEXSANDRA MARIA DE CAMPOS** - *Banco de dados* - [GitHub](https://github.com/AlexsandraMCampos)
+* **VINICIUS GOMES LINS**        - *Banco de dados* - [GitHub](https://github.com/VGLink) <br><br>
 
 ## ⚙️ Funcionalidades do Projeto
 
@@ -26,7 +26,7 @@ Nossa plataforma possui as seguintes funcionalidades principais:
 *  **Autenticação e Autorização:** Implementação de sistema de login e controle de acesso utilizando JWT.
 *  **Pesquisa:** Função de pesquisa para encontrar livros específicos ou por categoria.<br><br>
 
-## 🛠️ Construído com
+## 🛠️ Tecnologias Utilizadas
 
 Aqui estão as ferramentas que utilizei para criar este projeto:
 
@@ -94,5 +94,5 @@ Gostaríamos de expressar nossa sincera gratidão aos professores [Átila](https
 Agradecemos também a todos os nossos colegas de classe e demais professores pelo apoio e colaboração durante este processo de aprendizado e desenvolvimento. <br> <br>
 
 
-<img src="https://raw.githubusercontent.com/matheuscostadesign/projetos-senai/main/.github/logo-senai.svg" width="100"> <br>
+# <img src="https://raw.githubusercontent.com/matheuscostadesign/projetos-senai/main/.github/logo-senai.svg" width="100">
 Este projeto foi desenvolvido como parte do segundo semestre do curso técnico de Desenvolvimento de Sistemas no [SENAI Suíço-Brasileira](https://sp.senai.br/unidade/suicobrasileira/) em 2024.

@@ -1,14 +1,13 @@
 import NavBarComponents from "../../component/NavBar";
 import FooterComponent  from "../../component/Footer";
-import ViewBook        from "../../component/ViewBook";
+import NewBook          from "../../component/NewBook";
 
-export default function PageLivros() {
-    return (
-        <div>
+export default function PageNovoLivro(){
+    return(
+        <section>
             <NavBarComponents />
-            <ViewBook/>
+            <NewBook />
             <FooterComponent />
-        </div>
-
+        </section>
     )
 }
