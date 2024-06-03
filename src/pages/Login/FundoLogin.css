@@ -1,0 +1,41 @@
+.Fundo{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    /* display: flex; */
+    overflow-y: hidden;
+    overflow-x: hidden;
+    z-index: -1;
+    background-color: #37192c;
+}
+.bola1{
+    margin-left: -50px;
+    margin-top: -410px;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-color: #220315;
+}
+.bola2{
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #220315;
+    margin-left: 1150px;
+
+}
+.retangulo{
+    margin-left: 991px;
+    width: 150px;
+    height: 300px;
+    background-color: #220315;
+    border-radius: 10px;
+}
+.logo{
+    position: relative;
+    bottom: 420px;
+    left: 162px;
+    width: 50px;
+    height: 50px;
+}

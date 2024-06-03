@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.teste{
+    position: fixed;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bigbox{
+    position: fixed;
+    top: 14%;
+    left: 15%;
+    z-index: 2;
+    width: 800px;
+    height: 450px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+.livros{
+    height: 450px;
+    width: 450px;
+    margin-left: 450px;
+}
+.logo{
+    position: relative;
+    top: 25px;
+    left: 60px;
+    width: 50px;
+    height: 50px;
+}
+.infos{
+    bottom: 454px;
+    left: 0px;
+    position: relative;
+    width: 450px;
+    height: 450px;
+    display: grid;
+    border-radius: 5px;
+}
+.titulo{
+    position: relative;
+    color: black;
+    left: 174px;
+    top: 60px;
+}
+
+.areanome{
+    margin-top: 45px;
+    width: 358px;
+    height: 55px;
+    background-color:  #F3F4F6;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 50px;
+}
+.subtitulo{
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+}
+.Nome{
+    width: 200px;
+    height: 30px;
+    border: none;
+    background-color: #F3F4F6;
+    outline: none;
+}
+.areaemail{
+    width: 358px;
+    height: 55px;
+    background-color:  #F3F4F6;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 50px;
+}
+.Email{
+    width: 200px;
+    height: 30px;
+    border: none;
+    background-color: #F3F4F6;
+    outline: none;
+}
+.areasenha{
+    width: 358px;
+    height: 55px;
+    background-color:  #F3F4F6;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 50px;
+}
+.Senha{
+    width: 200px;
+    height: 30px;
+    border: none;
+    background-color: #F3F4F6;
+    outline: none;
+}
+.login{
+    width: 358px;
+    height: 45px;
+    margin-left: 50px;
+    border: none;
+    background-color: #37192C;
+    color: white;
+    font-size: 19px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 17px 0px #00BDD626;
+}
+.esconderArea{
+    width: 25px;
+    height: 25px;
+    /* background-color: yellow; */
+    margin-left: 108px;
+    border: none;
+}
+.esconder{
+    width: 20px;
+    width: 20px;
+}
