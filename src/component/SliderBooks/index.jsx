@@ -11,7 +11,7 @@ const SliderBookComponent = (props) => {
                 <Carousel arrows infinite={true} vertical={false} slidesToShow={displayedImages.length} >
                     {displayedImages.map((image, index) => (
                         <div key={index}>
-                            <img src={image.capa} alt={`Image ${index}`} style={{ width: "176px", height: "auto", margin: "0px" }} />
+                            <img src={image.capa} alt={`Image ${index}`} style={{ width: "176px", height: "auto", margin: "0px", cursor: 'pointer' }} />
                         </div>
                     ))}
                 </Carousel>
