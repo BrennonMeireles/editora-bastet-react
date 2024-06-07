@@ -1,5 +1,6 @@
 import { Footer } from "./style"
 import LogoNav from "../../assets/img/logo-nav.svg"
+import { Link } from "react-router-dom"
 
 export default function FooterComponent() {
     return (
@@ -14,8 +15,8 @@ export default function FooterComponent() {
                     <li>Autores</li>
                 </ul>
                 <ul>
-                    <li>Home</li>
-                    <li>Livros</li>
+                    <Link to="/home">Home</Link>
+                    <Link to="/produtos">Livros</Link>
                 </ul>
                 <ul>
                     <li>Quem Somos</li>
