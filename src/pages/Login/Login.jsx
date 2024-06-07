@@ -154,8 +154,10 @@ const Logar = async (e) => {
         
                 
             <div className="bigbox">
+              <div className="box">
                 <img className="livros" src={livros} />
-                
+              </div>
+              
                 <div className="infos">
                 <h1 className="titulo"> LOGIN </h1>
 
