@@ -16,21 +16,17 @@ export default function ViewBookC(props) {
       </Book>
       <Description>
         <ul>
-          <li>
+          <li id="id">
             <label htmlFor="id">ID: </label>
             <input id="id" value={props.id} readOnly />
           </li>
           <li>
-            <label htmlFor="autor">Autor: </label>
-            <input value={props.autor} readOnly />
-          </li>
-          <li>
-            <label htmlFor="capa">Capa: </label>
-            <input value={props.capa} readOnly />
-          </li>
-          <li>
             <label htmlFor="titulo">Titulo: </label>
             <input value={props.titulo} readOnly />
+          </li>
+          <li>
+            <label htmlFor="autor">Autor: </label>
+            <input value={props.autor} readOnly />
           </li>
           <li>
             <label htmlFor="genero">Gênero: </label>
@@ -39,6 +35,10 @@ export default function ViewBookC(props) {
           <li>
             <label htmlFor="isbn">ISBN: </label>
             <input value={props.ISBN} readOnly />
+          </li>
+          <li>
+            <label htmlFor="capa">Capa: </label>
+            <input value={props.capa} readOnly />
           </li>
           <li>
             <label htmlFor="sinopse">Sinopse: </label>
