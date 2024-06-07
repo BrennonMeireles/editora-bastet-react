@@ -1,32 +1,36 @@
 import styled from "styled-components"
 
 export const ViewBook = styled.section`
-    margin: 80px 40px;
+    margin: 5rem 2.5rem;
     display: flex;
     /* flex-direction: column; */
-    gap: 30px;
+    gap: 1.875rem;
 `
 export const BackBtn = styled.button`
     background: none;
-    border: 1px solid;
+    border: .0625rem solid;
     width: fit-content;
-    padding: 5px;
+    padding: .3125rem;
 `
 export const Description = styled.div`
     display: flex;
-    gap: 10px;
+    gap: .625rem;
+
+    #id{
+        display: none;
+    }
 
     ul{
-        margin-top: 35px;
+        margin-top: 2.1875rem;
         display: flex;
         flex-direction: column;
-        gap: 30px;
+        gap: 1.875rem;
     }
 
     li{
         list-style: none;
         display: flex;
-        gap: 16px;
+        gap: 1rem;
         justify-content: space-between;
     }
 
@@ -35,19 +39,19 @@ export const Description = styled.div`
     }
 
     label, input {
-        font-size: 24px;
+        font-size: 1.5rem;
     }
 
     textarea::placeholder, input::placeholder{
-        font-size: 18px;
+        font-size: 1.125rem;
     }
 
     ul > li > input {
-        width: 500px;
+        width: 31.25rem;
         border-left:  none;
         border-top:   none;
         border-right: none;
-        border-bottom: 1px solid;
+        border-bottom: .0625rem solid;
         cursor: pointer;
     }
 
@@ -56,14 +60,14 @@ export const Description = styled.div`
     }
 
     textarea {
-        font-size: 24px;
+        font-size: 1.5rem;
         border: none;
         border-radius: .3125rem;
-        width: 500px;
-        height: 250px;
+        width: 31.25rem;
+        height: 20.625rem;
         cursor: pointer;
         resize: none;
-        line-height: 30px;
+        line-height: 1.875rem;
         text-decoration: none;
         transition: 0.5s ease;
     }
@@ -76,23 +80,23 @@ export const Description = styled.div`
 export const Book = styled.div`
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 1.5rem;
     
     article{
-        padding: 35px 150px;
-        border: 1.6px solid;
-        border-radius: 10px;
+        padding: 2.1875rem 9.375rem;
+        border: .1rem solid;
+        border-radius: .625rem;
     }
 
     article > img{
-        width: 330px;
+        width: 20.625rem;
         height: auto                ;
     }
 
     article > svg {
-        width: 100px;
+        width: 6.25rem;
         height: auto;
-        margin: 150px 100px;
+        margin: 9.375rem 6.25rem;
     }
 
     div{
@@ -104,10 +108,10 @@ export const Book = styled.div`
         @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
 
         background: none;
-        padding: 16px 48px;
-        border-radius: 10px;
-        font-size: 26px;
-        border: 1px solid;
+        padding: 1rem 3rem;
+        border-radius: .625rem;
+        font-size: 1.625rem;
+        border: .0625rem solid;
         font-family: "Libre Baskerville", serif;
         transition: 0.2s linear;
         cursor:pointer
@@ -116,6 +120,6 @@ export const Book = styled.div`
 
     button:hover{
         border: .125rem solid;
-        font-size: 27px;
+        font-size: 1.6875rem;
     }
 `
