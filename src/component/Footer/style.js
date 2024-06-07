@@ -8,21 +8,21 @@ export const Footer = styled.footer`
   background-color: var(--vinho-100);
   color: var(--branco-1000);
 
-  padding: 60px;
+  padding: 3.75rem;
 
   .title-container {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: .625rem;
   }
 
   div > img {
-    width: 60px;
+    width: 3.75rem;
     height: auto;
   }
 
   h4 {
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: 400;
   }
 
@@ -31,47 +31,52 @@ export const Footer = styled.footer`
     flex-direction: column;
     list-style: none;
 
-    gap: 42px;
+    gap: 2.625rem;
 
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: 400;
   }
 
-  li {
+  li, a {
     position: relative;
     cursor: pointer;
-    
+    list-style: none;
+    text-decoration: none;
+    color: var(--branco-1000);
   }
 
   .list-container {
     display: flex;
-    gap: 60px;
+    gap: 3.75rem;
   }
   
-  li::before {
+  li::before, a::before {
     content: "";
     position: absolute;
-    bottom: -3px;
+    bottom: -0.1875rem;
     left: 0;
 
     background-color: var(--branco-1000);
-    border-radius: 0.3125rem;
+    border-radius: .3125rem;
 
-    height: 0.0625rem;
+    height: .0625rem;
     width: 0%;
   }
 
-  li:hover::before {
+  li:hover::before, a:hover::before {
     width: 100%;
     transition: 0.4s ease;
+    list-style: none;
+    text-decoration: none;
+    color: var(--branco-1000);
   }
 
   /*responsividade*/
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 37.5rem) {
 
     margin-top: auto;
-    width:100%
+    width:100%;
 
     padding: 1.25rem;
 
@@ -93,13 +98,13 @@ export const Footer = styled.footer`
     li::before {
       content: "";
       position: absolute;
-      bottom: -3px;
+      bottom: -0.1875rem;
       left: 0;
   
       background-color: var(--branco-1000);
-      border-radius: 0.3125rem;
+      border-radius: .3125rem;
   
-      height: 0.0625rem;
+      height: .0625rem;
       width: 0%;
     }
   
@@ -119,7 +124,5 @@ export const Footer = styled.footer`
     h4 {
       font-size: 1.5rem; /* Ajustar o tamanho da fonte */
     }
-  }
- 
   }
 `;
