@@ -1,8 +1,7 @@
 import { FaRegPaste } from "react-icons/fa6";
 import { ViewBook, Description, Book } from "../ViewBook/style"
-import {useState } from "react";
-import axios from "axios";
-
+import {useState }   from "react";
+import axios         from "axios";
 
 export default function NewBook() {
     
@@ -12,7 +11,6 @@ export default function NewBook() {
     const [genero, setGenero] = useState('');
     const [isbn, setISBN] = useState('');
     const [sinopse, setSinopse] = useState('');
-
 
     const adicionarLivro = () => {
         try{
@@ -36,7 +34,6 @@ export default function NewBook() {
             console.log("Erro ao salvar livro", error)
         }
     }
-
 
     return (
         <ViewBook>

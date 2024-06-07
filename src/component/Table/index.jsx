@@ -1,5 +1,5 @@
 import { Tabela } from "./style";
-import axios from "axios";
+import axios      from "axios";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 

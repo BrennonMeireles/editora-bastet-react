@@ -1,11 +1,11 @@
 import FundoLogin from "./FundoLogin"
-import livros from "./imagens/livros.png"
-import invisivel from "./imagens/invisivel.png"
-import olho from "./imagens/olho.png"
-import { useState } from "react"
-import sign from "../../service/api"
-import "./Login.css"
+import livros     from "./imagens/livros.png"
+import invisivel  from "./imagens/invisivel.png"
+import olho       from "./imagens/olho.png"
 
+import sign         from "../../service/api"
+import { useState } from "react"
+import "./Login.css"
 
 export default function Login(){
     
@@ -19,7 +19,6 @@ export default function Login(){
         const [carregando, setCarregando] = useState('')
         const [erro, setErro] = useState('')
 
-
     const mudaNome = (e) => {
             setNome(e.target.value)
         }
@@ -30,7 +29,6 @@ export default function Login(){
    const mudaSenha = (e) => {
         setSenha(e.target.value)
     }
-
 
 const Logar = async (e) => {
 
@@ -64,9 +62,7 @@ const Logar = async (e) => {
         setCarregando(false);
     }
 }
-
     return (
-        
           <div>
             
             <div className="teste">
@@ -151,8 +147,7 @@ const Logar = async (e) => {
               </div>
             </div>
           ) : (
-        
-                
+            
             <div className="bigbox">
               <div className="box">
                 <img className="livros" src={livros} />
@@ -195,7 +190,6 @@ const Logar = async (e) => {
                 </div>
             </div>
           )}
-            
       </div>
     )
 }

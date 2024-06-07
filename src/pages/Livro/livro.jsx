@@ -1,8 +1,8 @@
 import NavBarComponents from "../../component/NavBar";
 import FooterComponent  from "../../component/Footer";
-import ViewBook          from "../../component/ViewBook";
-import { useParams } from "react-router-dom";
-import axios from "axios";
+import ViewBook         from "../../component/ViewBook";
+import { useParams }    from "react-router-dom";
+import axios            from "axios";
 import { useState, useEffect } from "react";
 
 export default function Livro(){
