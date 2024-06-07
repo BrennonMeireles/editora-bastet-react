@@ -21,10 +21,10 @@ function NavBarComponents(){
                 <div className="container-NavBar">
                     <img src={LogoNav} alt="logo" />
                     <div>
-                        <Link to="/">Home</Link>
-                        <Link to="/ver-livro" >Livros</Link>
+                        <Link to="/home">Home</Link>
                         <Link to="/novo-livro" >Novo Livro</Link>
                         <Link to="/produtos">Estoque</Link>
+                        <Link to="/" >Logout</Link>
                     </div>  
                  
                     <div className="input-buscar">
