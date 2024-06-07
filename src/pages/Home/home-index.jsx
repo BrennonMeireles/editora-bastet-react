@@ -1,26 +1,20 @@
 import NavBarComponents from "../../component/NavBar";
-import FooterComponent from "../../component/Footer";
+import FooterComponent  from "../../component/Footer";
 import SliderBookComponent from "../../component/SliderBooks";
-import SliderBanner from "../../component/SliderBanner";
-import BannerLacamento from "../../component/BanLancamento";
+import SliderBanner     from "../../component/SliderBanner";
+import BannerLacamento  from "../../component/BanLancamento";
 
 // imagens dos sliderbook 1 - Lançamentos
-import BMaisVendidos from "../../component/BannerMaisVendidos";
-import axios from "axios";
+import BMaisVendidos  from "../../component/BannerMaisVendidos";
+import axios          from "axios";
 import { useState, useEffect } from "react";
-import Loading from "../../component/Loading";
-
+import Loading        from "../../component/Loading";
 
 const title = "Lançamentos"
-
 const title2 = "Romance"
-
 const title3 = "Clássicos"
-
 const title4 = "Fantasia"
-
 const title5 = "Mistério / Suspense"
-
 
 export default function Home() {
 
@@ -34,7 +28,7 @@ export default function Home() {
         }).catch((error) => {
             console.log(error)
         })
-    }, []);
+    }, [])
 
     const livrosRomance = dados.filter(dado => dado.genero == "Romance");
 
@@ -45,22 +39,20 @@ export default function Home() {
     const livrosFantasia = dados.filter(dado => dado.genero == "Fantasia");
 
     return (
-
         <div>
             <NavBarComponents />
-            {/* <SliderBanner /> */}
-            { loading ? (<Loading/>) : (
+            <SliderBanner />
+            {loading ? (<Loading />) : (
                 <>
-                    {/* <SliderBookComponent title={title} images={dados} /> */}
-                    {/* <BannerLacamento />
+                    <SliderBookComponent title={title} images={dados} />
+                    <BannerLacamento />
                     <BMaisVendidos />
                     <SliderBookComponent title={title2} images={livrosRomance} />
                     <SliderBookComponent title={title3} images={livrosClassicos} />
                     <SliderBookComponent title={title4} images={livrosFantasia} />
-                    <SliderBookComponent title={title5} images={livrosSuspense} /> */}
+                    <SliderBookComponent title={title5} images={livrosSuspense} />
                 </>
             )}
-
             <FooterComponent />
         </div>
     )

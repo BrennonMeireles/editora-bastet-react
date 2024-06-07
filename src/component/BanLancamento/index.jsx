@@ -1,15 +1,13 @@
 import { BanLancamento, TitleBan, Text, TextContainer, BookContainer, Button } from "./style"
 
 import capaLivroMorroVentos from "../../assets/img/capa-livro-morro-vu.png"
-
-import backimg from "../../assets/img/banner-lancamento.png"
-import teste from "../../assets/img/teste.png"
+import backimg from "../../assets/img/teste.png"
 
 export default function BannerLacamento() {
     return (
         <BanLancamento>
             <div>
-                <img src={teste} alt="" />
+                <img src={backimg} alt="" />
                 <TextContainer>
                     <TitleBan>Lançamento</TitleBan>
                     <Text>

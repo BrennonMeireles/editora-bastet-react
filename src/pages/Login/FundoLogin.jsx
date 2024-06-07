@@ -1,8 +1,7 @@
 import "./FundoLogin.css"
 import logo from "./imagens/logo.png"
 
-
-export default function FundoLogin(){
+export default function FundoLogin() {
 
     return (
         <div className="Fundo">
