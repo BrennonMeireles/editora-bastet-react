@@ -1,6 +1,7 @@
 import { Tabela } from "./style";
 import axios from "axios";
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 export default function Table() {
     const [livros, setLivros] = useState([]);
@@ -35,18 +36,40 @@ export default function Table() {
                         <th>Autor</th>
                         <th>Capa</th>
                         <th id="mobile">Titulo</th>
-                        <th><button>Adicionar</button></th>
+                        <th>
+                            <Link to={"/novo-livro"} style={{textDecoration: 'none', color: 'black', cursor: 'pointer'}} >
+                                <button style={{cursor: 'pointer'}}>
+                                    Adicionar
+                                </button>
+                            </Link>
+                        </th>
                     </tr>
                 </thead>
                 <tbody>
                     {livros?.map((livro) => (
-                        <tr key={livro.id}>
-                            <td>{livro.ISBN}</td>
-                            <td>{livro.autor}</td>
-                            <td><img src={livro.capa} alt="Capa do Livro" /></td>
-                            <td id="mobile">{livro.titulo}</td>
-                            <td><a href="#" onClick={() => deleteByID(livro._id)}>Excluir</a></td>
-                        </tr>
+                            <tr key={livro.id}>
+                                <td>
+                                    <Link to={`/livro/${livro._id}`} style={{textDecoration: 'none', color: 'black'}}>
+                                        {livro.ISBN}
+                                    </Link>
+                                </td>
+                                <td>
+                                    <Link to={`/livro/${livro._id}`} style={{textDecoration: 'none', color: 'black'}}>
+                                        {livro.autor}
+                                    </Link>
+                                </td>
+                                <td>
+                                    <Link to={`/livro/${livro._id}`} style={{textDecoration: 'none', color: 'black'}}>
+                                        <img src={livro.capa} alt="Capa do Livro" />
+                                    </Link>
+                                </td>
+                                <td id="mobile">
+                                    <Link to={`/livro/${livro._id}`} style={{textDecoration: 'none', color: 'black'}}>
+                                        {livro.titulo}
+                                    </Link>
+                                </td>
+                                <td><a href="#" onClick={() => deleteByID(livro._id)}>Excluir</a></td>
+                            </tr>
                     ))}
                 </tbody>
             </Tabela>
