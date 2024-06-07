@@ -1,4 +1,5 @@
 import { ViewBook, Description, Book } from "./style";
+import { Link } from "react-router-dom";
 
 export default function ViewBookC(props) {
   return (
@@ -11,7 +12,9 @@ export default function ViewBookC(props) {
         <div>
           <button>Excluir</button>
           <button>Atualizar</button>
-          <button>Adicionar</button>
+          <Link to={"/novo-livro"} style={{textDecoration: 'none', color: 'black', cursor: 'pointer'}} >
+            <button>Adicionar</button>
+          </Link>
         </div>
       </Book>
       <Description>
