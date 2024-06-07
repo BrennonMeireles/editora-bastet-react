@@ -84,4 +84,66 @@ export const NavBar = styled.nav`
     width: 1.25rem;
     height: auto;
   }
+
+@media screen and (max-width: 600px) {
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+  width: 100%;
+
+  .container-NavBar {
+    width: 100%;
+    border-radius: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-shadow: 0rem .3125rem .625rem 0rem rgba(0, 0, 0, 0.3);
+  }
+  a {
+    font-size: 1rem;
+  }
+  
+  div {
+    gap: 1rem;
+  }
+
+  .input-buscar {
+    /* aguardando menu hamburguer */
+    display: none;
+
+    padding: .5rem .75rem;
+    display: flex;
+    align-items: center;
+    gap: .375rem;
+    background-color: #fff;
+    border-radius: 1.25rem;
+  }
+
+  input {
+    /* aguardando menu hamburguer */
+
+    display: none;
+
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-size: 1.125rem;
+    width: 21.125rem;
+    height: 1.5rem;
+    padding-left: .9375rem;
+  }
+
+  input:focus-visible {
+    outline: none;
+  }
+
+  svg {
+    width: 1rem;
+    height: auto;
+  }
+
+  img{
+    width: 2rem;
+    height: auto;
+  }
+
+  }
 `;

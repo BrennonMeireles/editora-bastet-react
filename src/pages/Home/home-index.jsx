@@ -48,16 +48,16 @@ export default function Home() {
 
         <div>
             <NavBarComponents />
-            <SliderBanner />
+            {/* <SliderBanner /> */}
             { loading ? (<Loading/>) : (
                 <>
-                    <SliderBookComponent title={title} images={dados} />
-                    <BannerLacamento />
+                    {/* <SliderBookComponent title={title} images={dados} /> */}
+                    {/* <BannerLacamento />
                     <BMaisVendidos />
                     <SliderBookComponent title={title2} images={livrosRomance} />
                     <SliderBookComponent title={title3} images={livrosClassicos} />
                     <SliderBookComponent title={title4} images={livrosFantasia} />
-                    <SliderBookComponent title={title5} images={livrosSuspense} />
+                    <SliderBookComponent title={title5} images={livrosSuspense} /> */}
                 </>
             )}
 

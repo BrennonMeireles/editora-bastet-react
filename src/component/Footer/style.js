@@ -78,51 +78,30 @@ export const Footer = styled.footer`
     margin-top: auto;
     width:100%;
 
-    padding: 1.25rem;
+    padding: 1rem;
 
     .title-container {
-      align-items: center;
-      text-align: center;
       gap:1rem;
     }
 
     div > img {
-      width: 3.125rem; /* Ajustar o tamanho da imagem */
+      width: 3rem; /* Ajustar o tamanho da imagem */
     }
 
     .list-container {
-      flex-direction: column;      
-      gap: 1.25rem; /* Reduzir o espaço entre as listas */
+      flex-direction: column;
+      gap: 1rem; /* Reduzir o espaço entre as listas */
     }
-
-    li::before {
-      content: "";
-      position: absolute;
-      bottom: -0.1875rem;
-      left: 0;
-  
-      background-color: var(--branco-1000);
-      border-radius: .3125rem;
-  
-      height: .0625rem;
-      width: 0%;
-    }
-  
-    li:hover::before {
-      width: 100%;
-      transition: 0.4s ease;
-    }
-
 
     ul {
-      display:flex;
+      justify-content: space-between;
       flex-direction: row;
-      gap: 1.25rem; /* Reduzir o espaço entre os itens da lista */
-      font-size: 1.5rem; /* Ajustar o tamanho da fonte */
+      gap: 1.25rem;       /* Reduzir o espaço entre os itens da lista */
+      font-size: 18px; /* Ajustar o tamanho da fonte */
     }
 
-    h4 {
-      font-size: 1.5rem; /* Ajustar o tamanho da fonte */
+    h1 {
+      font-size: 1.25rem; /* Ajustar o tamanho da fonte */
     }
   }
 `;
