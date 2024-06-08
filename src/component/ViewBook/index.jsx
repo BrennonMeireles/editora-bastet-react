@@ -1,7 +1,23 @@
 import { ViewBook, Description, Book } from "./style";
 import { Link } from "react-router-dom";
+import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 export default function ViewBookC(props) {
+
+  const navigate = useNavigate();
+  
+  const deleteByID = (id) => {
+    axios.delete(`https://api-editora.onrender.com/livro/apagar/${id}`)
+        .then(() => {
+            window.alert(`O livro com id ${id} foi deletado com sucesso!`);
+            navigate("/produtos")
+        })
+        .catch(error => {
+            console.error("Deu erro", error);
+        });
+};
+
   return (
     <ViewBook>
       {/* <BackBtn>voltar</BackBtn> */}
@@ -10,7 +26,7 @@ export default function ViewBookC(props) {
           <img src={props.capa} alt="capa do livro" />
         </article>
         <div>
-          <button>Excluir</button>
+          <button onClick={() => deleteByID(props.id)}>Excluir</button>
           <button>Atualizar</button>
           <Link to={"/novo-livro"} style={{textDecoration: 'none', color: 'black', cursor: 'pointer'}} >
             <button>Adicionar</button>
