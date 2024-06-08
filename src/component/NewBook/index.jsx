@@ -40,8 +40,12 @@ export default function NewBook() {
             {/* <BackBtn>voltar</BackBtn> */}
             <Book>
                 <article>
-                    <FaRegPaste />
-                    <p>Adicione a URL da imagem em "CAPA"</p>
+                    {capa ? <img src={capa} /> : 
+                    <>
+                        <FaRegPaste />
+                        <p>Adicione a URL da imagem em "CAPA"</p>
+                    </>
+                    }
                 </article>
                 <div>
                     <button>Excluir</button>
