@@ -37,7 +37,7 @@ export default function Table() {
                         <th>Capa</th>
                         <th id="mobile">Titulo</th>
                         <th>
-                            <Link to={"/novo-livro"} style={{textDecoration: 'none', color: 'black', cursor: 'pointer'}} >
+                            <Link to={"/novo-livro"} style={{ cursor: 'pointer', textDecoration: 'none', color: 'black'}} >
                                 <button style={{cursor: 'pointer'}}>
                                     Adicionar
                                 </button>
