@@ -1,86 +1,85 @@
-import FundoLogin from "./FundoLogin"
-import livros     from "./imagens/livros.png"
-import invisivel  from "./imagens/invisivel.png"
-import olho       from "./imagens/olho.png"
-import { Link } from "react-router-dom";
-import sign         from "../../service/api"
-import { useState } from "react"
-import "./Login.css"
+import FundoLogin from "../Login/FundoLogin";
+import livros from "../Login/imagens/livros.png";
+import invisivel from "../Login/imagens/invisivel.png";
+import olho from "../Login/imagens/olho.png";
+import { useState } from "react";
+import sign from "../../service/api"
+import "./Cadastro.css";
 
-export default function Login(){
+
+export default function Cadastro(){
+
+        const [nome, setNome] = useState('');
+        const [email, setEmail] = useState('')
+        const [senha, setSenha] = useState('')
+        const [sobrenome, setSobrenome] = useState('')
+        const [carregando, setCarregando] = useState('')
+        
+
+
+
+
+        const mudaNome = (e) => {
+            setNome(e.target.value)
+        }
+        const mudaEmail = (e) => {
+            setEmail(e.target.value)
+        }
+        
+    const mudaSenha = (e) => {
+            setSenha(e.target.value)
+        }
+    const mudaSobrenome = (e) => {
+          setSobrenome(e.target.value)
+        }
+    
+    const Cadastrar = async (e) =>{
+        e.preventDefault();
+
+        if (!email || !senha || !nome || !sobrenome) {
+            window.alert('Por favor, insira todos o dados requisitados para a construção do cadastro');
+            return;
+          }
+
+let user = "user"
+          setCarregando(true)
+
+          try {
+            const response = await sign.post('/register', {
+              email,
+              senha,
+              nome,
+              sobrenome,
+              tipo: user
+            });
+                if(response){
+                    window.alert("Usuario criado com Sucesso!")
+                    window.location.href = "/"
+                }
+            }
+     
+            catch (error) {
+                console.log(error)
+                
+                window.alert("Erro ao fazer Cadastro, Por favor tente novamente mais tarde")
+            }
+            finally{
+                setCarregando(false);
+            }
+    }
+
     
     const [MostrarSenha, setMostrarSenha] = useState(false)
 
     const Esconder = () => setMostrarSenha(!MostrarSenha)
 
-        const [nome, setNome] = useState('');
-        const [email, setEmail] = useState('')
-        const [senha, setSenha] = useState('')
-        const [carregando, setCarregando] = useState('')
-        const [erro, setErro] = useState('')
-        const [msgErro, setMsgErro] = useState(false)
-        const [msgErro2, setMsgErro2] = useState(false)
-        const mostrarErro = () => setMsgErro(true)
-        const erroNome = () => setMsgErro2(true)
 
-
-    const mudaNome = (e) => {
-            setNome(e.target.value)
-        }
-    const mudaEmail = (e) => {
-          setEmail(e.target.value)
-      }
-      
-   const mudaSenha = (e) => {
-        setSenha(e.target.value)
-    }
-
-const Logar = async (e) => {
-
-     e.preventDefault();
-
-        //validação se o usuário preencheu os campos
-        if (!nome ||!email || !senha ){
-            setErro('Preencha todos os campos');
-            return
-        }
-
-        setCarregando(true)
-
-        try{
-            const resposta = await sign.post('/login', {
-                nome,
-                email,
-                senha,
-        });
-
-        const { token } = resposta.data;
-        localStorage.setItem('token', token);
-        setErro(null)
-        window.location.href = "/home"
-
-    }catch(error){
-        console.log(error)
-        if (error.response && error.response.status === 404){
-          erroNome()
-        }
-        else if(error.response && error.response.status === 422 ){
-          mostrarErro()
-        }
-        
-        localStorage.removeItem('token');
-    }finally{
-        setCarregando(false);
-    }
-}
     return (
-          <div>
-            
-            <div className="teste">
+    
+        <div className="teste">
               <FundoLogin />
-            </div>
-            {erro && <p>{erro}</p> }
-        {carregando? (
+
+              {carregando? (
             <div className="carregador">
             <div className="loader">
             <div>
@@ -119,36 +118,45 @@ const Logar = async (e) => {
             </div><span>Carregando...</span></div>
             </div>
           ) : (
-            
             <div className="bigbox">
-              <div className="box">
                 <img className="livros" src={livros} />
-              </div>
-              
-                <div className="infos">
-                <h1 className="titulo"> LOGIN </h1>
-                {msgErro && <p className="msgErro"> Email ou senha incorretos </p>}
-                {msgErro2 && <p className="msgErro">Nome incorreto</p>}
-                <div className="areanome">
-                <p className="subtitulo">Nome</p>    
-                <input className="Nome" type="text"
-                 placeholder="Digite seu Nome Completo " 
-                 value={nome}
-                 onChange={mudaNome}
-                 required />
-                </div>
+                
+                <div className="infor">
 
-                <div className="areaemail">
-                <p className="subtitulo">Email</p>
-                <input className="Email" 
-                placeholder="Digite seu Email "
-                value={email}
-                onChange={mudaEmail} />
-                </div>
+                        <div className="superPai">
+                            <h1 className="titulo2"> REGISTER </h1>
 
-                <div className="areasenha">
-                  <p className="subtitulo">Senha</p>
-                    <div className="esconderArea">
+                            <div className="areanome">
+                            <p className="subtitulo">Digite seu nome: </p>    
+                            <input className="Nome" type="text"
+                            placeholder="Exemplo: Brennon  " 
+                             value={nome}
+                             onChange={mudaNome}
+                            required />
+                            </div>
+
+                            <div className="areaSobrenome">
+                            <p className="subtitulo">Digite seu sobrenome:</p>    
+                            <input className="Nome" type="text"
+                            placeholder="Exemplo:Meirelles silva" 
+                             value={sobrenome}
+                             onChange={mudaSobrenome}
+                            required />
+                            </div>
+
+                            <div className="areaemail">
+                            <p className="subtitulo">Digite seu Email:</p>
+                            <input className="Email" 
+                            placeholder="Exemplo: Brennon@gmail.com "
+                            value={email}
+                            onChange={mudaEmail} 
+                            required
+                            />
+                            </div>
+
+                            <div className="areasenha">
+                             <p className="subtitulo">Crie uma Senha:</p>
+                             <div className="esconderArea">
                         <input className="Senha"
                           type={ MostrarSenha ? "text" :"password"} 
                           placeholder="Insira pelo menos 8 caracteres" 
@@ -157,21 +165,18 @@ const Logar = async (e) => {
                         />
                         <div className="revelacao" >
                           <div onClick={Esconder}>
-                                { MostrarSenha && <img className="esconder" src={ olho } />}
+                                { MostrarSenha  && <img className="esconder" src={    olho   } />}
                                 { !MostrarSenha && <img className="esconder" src={ invisivel } />}
                                 </div>
                           </div>
-                    </div> 
-                </div>
+                    </div>  
+                            </div>
 
-                <button className="login" onClick={Logar}> Sign In</button>
-
-                <div className="centralizando"> 
-                <Link to={`/Cadastro`} className="cad"> Register </Link>
-                </div>
-                </div>
+                            <button type="submit" className="login" onClick={Cadastrar}> Sign Up</button>
+                        </div>
+                    </div>
             </div>
-          )}
-      </div>
-    )
-}
+            )}
+        </div>
+      )
+    }
