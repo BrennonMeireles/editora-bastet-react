@@ -1,0 +1,31 @@
+.infor{
+    bottom: 454px;
+    left: 0px;
+    position: relative;
+    width: 450px;
+    height: 450px;
+    place-items: center;
+    border-radius: 5px;
+}
+.titulo2{
+    position: relative;
+    color: black;
+    left: 150px;
+    top: 40px;
+}
+.superPai{
+    gap: 17px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+}
+.areaSobrenome{
+    width: 358px;
+    height: 55px;
+    background-color:  #F3F4F6;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 50px;
+}
