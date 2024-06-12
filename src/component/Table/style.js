@@ -63,6 +63,12 @@ export const Tabela = styled.table`
     height: auto;
   }
 
+  a > button:hover {
+    background-color: rgba(254, 163, 4, 0.8);
+    color: var(--branco-1000);
+    transition: 0.2s;
+  }
+
   /*responsividade*/
 
   @media screen and (max-width: 600px) {
