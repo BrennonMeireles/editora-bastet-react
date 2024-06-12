@@ -11,13 +11,14 @@ export default function BannerLacamento() {
                 <TextContainer>
                     <TitleBan>Lançamento</TitleBan>
                     <Text>
-                        Lorem ipsum dolor sit amet consectetur. Amet vitae turpis ante nullam venenatis amet.
-                        Id justo nulla bibendum ultrices suspendisse id eget vitae. Cras proin cursus libero
-                        aliquam maecenas felis imperdiet. Adipiscing cursus non lectus mauris facilisi cursus.<br></br><br></br>
+                        Descubra o poderoso encanto de O Vento dos Morros Uivantes, uma jornada literária
+                        hipnotizante pelas paisagens vívidas e as histórias cativantes dos morros selvagens.<br></br><br></br>
 
-                        Lorem ipsum dolor sit amet consectetur. Amet vitae turpis ante nullam venenatis amet.
-                        Id justo nulla bibendum ultrices suspendisse id eget vitae. Cras proin cursus libero
-                        aliquam maecenas felis imperdiet. Adipiscing cursus non lectus mauris facilisi cursus.
+                        Esta obra envolvente transporta os leitores para um mundo de mistério e emoção, onde os
+                        segredos dos morros ecoam como o vento, deixando uma marca indelével no coração de quem
+                        se aventura por suas páginas. Prepare-se para ser envolvido por uma narrativa que brinca
+                        com os sentidos e alimenta a imaginação, enquanto explora os desafios e as maravilhas que
+                        habitam as encostas dos morros uivantes.
                     </Text>
                     <Button>ver livro</Button>
                 </TextContainer>
