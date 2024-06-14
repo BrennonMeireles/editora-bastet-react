@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 
 export default function ViewBookC(props) {
+  let tipo = localStorage.getItem('tipo')
   const navigate = useNavigate();
   const [autor, setAutor] = useState('');
   const [capa, setCapa] = useState('');
@@ -61,16 +62,23 @@ export default function ViewBookC(props) {
       <Book>
         <article>
           <img src={props.capa} alt="capa do livro" />
+          <div>
+            { tipo ==="SENAI511@"?(
+              <>
+              <button onClick={() => deleteByID(props.id)}>Excluir</button>
+              <button onClick={() => updateByID(props.id)}>
+                {editar ? "Alterar" : "Atualizar"}
+              </button>
+              <Link to={"/novo-livro"} style={{ textDecoration: 'none', color: 'black', cursor: 'pointer' }}>
+                <button>Adicionar</button>
+              </Link>
+              </>
+            ) : (
+              null
+            )}
+          </div>
         </article>
-        <div>
-          <button onClick={() => deleteByID(props.id)}>Excluir</button>
-          <button onClick={() => updateByID(props.id)}>
-            {editar ? "Alterar" : "Atualizar"}
-          </button>
-          <Link to={"/novo-livro"} style={{ textDecoration: 'none', color: 'black', cursor: 'pointer' }}>
-            <button>Adicionar</button>
-          </Link>
-        </div>
+       
       </Book>
       <Description>
         <ul>
