@@ -2,17 +2,24 @@ import FundoLogin from "./FundoLogin"
 import livros     from "./imagens/livros.png"
 import invisivel  from "./imagens/invisivel.png"
 import olho       from "./imagens/olho.png"
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import sign         from "../../service/api"
 import { useState } from "react"
 import "./Login.css"
 
+
 export default function Login(){
-    
+ 
+  const navigate = useNavigate();
+
+  history.pushState(null, null, document.URL);
+  window.addEventListener('popstate', function () {
+  history.pushState(null, null, document.URL);
+});
+
     const [MostrarSenha, setMostrarSenha] = useState(false)
 
     const Esconder = () => setMostrarSenha(!MostrarSenha)
-
         const [nome, setNome] = useState('');
         const [email, setEmail] = useState('')
         const [senha, setSenha] = useState('')
@@ -37,13 +44,15 @@ export default function Login(){
 
 const Logar = async (e) => {
 
-     e.preventDefault();
-
+    
         //validação se o usuário preencheu os campos
         if (!nome ||!email || !senha ){
-            setErro('Preencha todos os campos');
-            return
+            setErro('Preencha todos os campos para efetuar o login');
+            window.alert(erro);
+            return;
         }
+   
+
 
         setCarregando(true)
 
@@ -57,7 +66,19 @@ const Logar = async (e) => {
         const { token } = resposta.data;
         localStorage.setItem('token', token);
         setErro(null)
-        window.location.href = "/home"
+        const response = await sign.get('/user', {
+          headers: {
+            Authorization: `Bearer ${token}`, // Enviar o token no cabeçalho da requisição
+          },
+        });
+    
+        
+        localStorage.setItem('tipo',response.data.tipo)
+        
+      
+
+        navigate("/home");
+      
 
     }catch(error){
         console.log(error)

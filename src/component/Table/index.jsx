@@ -1,11 +1,11 @@
 import { Tabela } from "./style";
-import axios from "axios";
+import axios      from "axios";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 export default function Table() {
     const [livros, setLivros] = useState([]);
-
+    let tipo = localStorage.getItem('tipo');
     useEffect(() => {
         axios.get("https://api-editora.onrender.com/livros")
             .then((response) => {
@@ -28,8 +28,10 @@ export default function Table() {
     };
 
     return (
-        <div>
-            <Tabela>
+      
+           <div>
+            { tipo ==="SENAI511@"?(
+                <Tabela>
                 <thead>
                     <tr>
                         <th>ISBN</th>
@@ -37,40 +39,78 @@ export default function Table() {
                         <th>Capa</th>
                         <th id="mobile">Titulo</th>
                         <th>
-                            <Link to={"/novo-livro"} style={{ cursor: 'pointer', textDecoration: 'none', color: 'black' }} >
-                                <button style={{ cursor: 'pointer' }}>Adicionar</button>
+                            <Link to={"/novo-livro"} style={{textDecoration: 'none', color: 'black', cursor: 'pointer'}} >
+                                <button>Adicionar</button>
                             </Link>
                         </th>
                     </tr>
                 </thead>
                 <tbody>
-                    {livros?.map((livro) => (
-                        <tr key={livro.id}>
-                            <td>
-                                <Link to={`/livro/${livro._id}`} style={{ textDecoration: 'none', color: 'black' }}>
+                    {livros.map((livro) => (
+                        <tr key={livro._id}>
+                            <td> 
+                                <Link to={`/livro/${livro._id}`} style={{textDecoration: 'none', color: 'black'}}>
                                     {livro.ISBN}
                                 </Link>
-                            </td>
+                             </td>
                             <td>
-                                <Link to={`/livro/${livro._id}`} style={{ textDecoration: 'none', color: 'black' }}>
+                                <Link to={`/livro/${livro._id}`} style={{textDecoration: 'none', color: 'black'}}>
                                     {livro.autor}
                                 </Link>
                             </td>
                             <td>
-                                <Link to={`/livro/${livro._id}`} style={{ textDecoration: 'none', color: 'black' }}>
+                                <Link to={`/livro/${livro._id}`} style={{textDecoration: 'none', color: 'black'}}>
                                     <img src={livro.capa} alt="Capa do Livro" />
                                 </Link>
                             </td>
                             <td id="mobile">
-                                <Link to={`/livro/${livro._id}`} style={{ textDecoration: 'none', color: 'black' }}>
+                                <Link to={`/livro/${livro._id}`} style={{textDecoration: 'none', color: 'black'}}> 
                                     {livro.titulo}
-                                </Link>
+                                </Link>    
                             </td>
                             <td><a href="#" onClick={() => deleteByID(livro._id)}>Excluir</a></td>
                         </tr>
                     ))}
                 </tbody>
             </Tabela>
+            ) : ( <Tabela>
+                <thead>
+                    <tr>
+                        <th>ISBN</th>
+                        <th>Autor</th>
+                        <th>Capa</th>
+                        <th id="mobile">Titulo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {livros.map((livro) => (
+                        <tr key={livro._id}>
+                            <td> 
+                                <Link to={`/livro/${livro._id}`} style={{textDecoration: 'none', color: 'black'}}>
+                                    {livro.ISBN}
+                                </Link>
+                             </td>
+                            <td>
+                                <Link to={`/livro/${livro._id}`} style={{textDecoration: 'none', color: 'black'}}>
+                                    {livro.autor}
+                                </Link>
+                            </td>
+                            <td>
+                                <Link to={`/livro/${livro._id}`} style={{textDecoration: 'none', color: 'black'}}>
+                                    <img src={livro.capa} alt="Capa do Livro" />
+                                </Link>
+                            </td>
+                            <td id="mobile">
+                                <Link to={`/livro/${livro._id}`} style={{textDecoration: 'none', color: 'black'}}> 
+                                    {livro.titulo}
+                                </Link>    
+                            </td>
+                  
+                        </tr>
+                    ))}
+                </tbody>
+            </Tabela>)}
+          
         </div>
     );
 }

@@ -41,6 +41,11 @@ export default function Cadastro(){
             return;
           }
 
+          if(senha.length < 5){
+            window.alert('A senha deve ter pelo menos 5 caracteres');
+            return;
+          }
+
 let user = "user"
           setCarregando(true)
 
@@ -50,7 +55,7 @@ let user = "user"
               senha,
               nome,
               sobrenome,
-              tipo: user
+              tipo:user
             });
                 if(response){
                     window.alert("Usuario criado com Sucesso!")
@@ -60,7 +65,7 @@ let user = "user"
      
             catch (error) {
                 console.log(error)
-                
+               
                 window.alert("Erro ao fazer Cadastro, Por favor tente novamente mais tarde")
             }
             finally{
@@ -159,7 +164,7 @@ let user = "user"
                              <div className="esconderArea">
                         <input className="Senha"
                           type={ MostrarSenha ? "text" :"password"} 
-                          placeholder="Insira pelo menos 8 caracteres" 
+                          placeholder="Insira pelo menos 5 caracteres" 
                           value={senha}
                           onChange={mudaSenha}
                         />
