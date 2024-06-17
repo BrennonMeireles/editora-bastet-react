@@ -9,7 +9,7 @@ export const SliderBanner = styled.div`
     }
 
     ul.slick-dots.slick-dots-bottom{
-        top: 356px;
+        top: 378px;
         gap: 30px;
         li{
  
