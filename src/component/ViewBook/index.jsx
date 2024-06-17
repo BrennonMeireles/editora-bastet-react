@@ -62,7 +62,8 @@ export default function ViewBookC(props) {
       <Book>
         <article>
           <img src={props.capa} alt="capa do livro" />
-          <div>
+        </article>
+        <div>
             { tipo ==="SENAI511@"?(
               <>
               <button onClick={() => deleteByID(props.id)}>Excluir</button>
@@ -77,7 +78,6 @@ export default function ViewBookC(props) {
               null
             )}
           </div>
-        </article>
        
       </Book>
       <Description>
