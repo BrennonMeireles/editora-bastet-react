@@ -1,4 +1,4 @@
-# Projeto Editora Bastet   ![logo-nav](https://github.com/BrennonMeireles/editora-bastet-react/assets/141651615/6a568391-c070-4d1d-83f9-70df168f4059)
+# Projeto Editora Bastet     ![logo-nav](https://github.com/BrennonMeireles/editora-bastet-react/assets/141651615/6a568391-c070-4d1d-83f9-70df168f4059)
 
 
 Bem-vindo ao repositório do projeto **Editora Bastet**! Este projeto foi desenvolvido por uma equipe dedicada de nove programadores, e nosso objetivo é criar uma plataforma robusta e intuitiva para a administração e visualização de livros de diversos gêneros, incluindo romance, clássicos, fantasia, mistério, suspense e muito mais.
