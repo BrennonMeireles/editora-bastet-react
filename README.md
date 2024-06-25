@@ -88,7 +88,6 @@ Inicialize o servidor de desenvolvimento fornecido pelo Vite
 
    Clique no link gerado pelo Vite. Ele abrirá o site no seu navegador padrão (exemplo http://localhost:3000.) <br><br>
 
-
 ## 🎁 Agradecimentos
 Gostaríamos de expressar nossa sincera gratidão aos professores [Átila](https://github.com/profatila) e [Fiama](https://github.com/FiamaBrenda) por disponibilizarem suas aulas e fornecerem valiosos feedbacks ao longo do desenvolvimento deste projeto. Suas orientações e conhecimentos compartilhados foram fundamentais para o sucesso e crescimento da nossa equipe.
 
